@@ -25,8 +25,7 @@ namespace MusicApp.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-OSF0P27\\ELXANQULIYEV;Initial Catalog=C200MusicDB;Integrated S" +
-            "ecurity=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-OTGJTAK;Initial Catalog=MusicStore;Integrated Security=True")]
         public string musicConn {
             get {
                 return ((string)(this["musicConn"]));

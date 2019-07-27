@@ -10,27 +10,25 @@ using System.Windows.Forms;
 
 namespace MusicApp
 {
-    public partial class Main : Form
+    public partial class Musics : Form
     {
-        public Main()
+        public Musics()
         {
             InitializeComponent();
         }
 
-     
-
         private void AddToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form1 admMusic = new Form1();
-          
-            admMusic.ShowDialog();
+
         }
 
-        private void MusicToolStripMenuItem1_Click(object sender, EventArgs e)
+        private void MusicToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MusicShow ms = new MusicShow();
+            Form1 fr = new Form1();
+            fr.ShowDialog();
 
-            ms.ShowDialog();
+
+
         }
     }
 }

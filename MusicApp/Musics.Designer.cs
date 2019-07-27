@@ -1,6 +1,6 @@
 ﻿namespace MusicApp
 {
-    partial class Main
+    partial class Musics
     {
         /// <summary>
         /// Required designer variable.
@@ -29,61 +29,62 @@
         private void InitializeComponent()
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.musicToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.addToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.musicToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.genresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.clientToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.showToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.musicToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.genresToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.clientToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.favoriteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.favouriteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
-            this.menuStrip1.BackColor = System.Drawing.Color.OliveDrab;
+            this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.menuStrip1.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.musicToolStripMenuItem,
+            this.addToolStripMenuItem,
             this.showToolStripMenuItem,
-            this.favoriteToolStripMenuItem});
+            this.favouriteToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(12, 3, 0, 3);
-            this.menuStrip1.Size = new System.Drawing.Size(1924, 31);
+            this.menuStrip1.Size = new System.Drawing.Size(1278, 33);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // musicToolStripMenuItem
-            // 
-            this.musicToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.addToolStripMenuItem,
-            this.genresToolStripMenuItem,
-            this.clientToolStripMenuItem});
-            this.musicToolStripMenuItem.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.musicToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.musicToolStripMenuItem.Name = "musicToolStripMenuItem";
-            this.musicToolStripMenuItem.Size = new System.Drawing.Size(56, 25);
-            this.musicToolStripMenuItem.Text = "Add";
-            // 
             // addToolStripMenuItem
             // 
+            this.addToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.musicToolStripMenuItem,
+            this.genresToolStripMenuItem,
+            this.clientToolStripMenuItem});
+            this.addToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addToolStripMenuItem.ForeColor = System.Drawing.Color.Blue;
             this.addToolStripMenuItem.Name = "addToolStripMenuItem";
-            this.addToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
-            this.addToolStripMenuItem.Text = "Music";
+            this.addToolStripMenuItem.Size = new System.Drawing.Size(59, 29);
+            this.addToolStripMenuItem.Text = "Add";
             this.addToolStripMenuItem.Click += new System.EventHandler(this.AddToolStripMenuItem_Click);
+            // 
+            // musicToolStripMenuItem
+            // 
+            this.musicToolStripMenuItem.Name = "musicToolStripMenuItem";
+            this.musicToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.musicToolStripMenuItem.Text = "Music";
+            this.musicToolStripMenuItem.Click += new System.EventHandler(this.MusicToolStripMenuItem_Click);
             // 
             // genresToolStripMenuItem
             // 
             this.genresToolStripMenuItem.Name = "genresToolStripMenuItem";
-            this.genresToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.genresToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.genresToolStripMenuItem.Text = "Genres";
             // 
             // clientToolStripMenuItem
             // 
             this.clientToolStripMenuItem.Name = "clientToolStripMenuItem";
-            this.clientToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.clientToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.clientToolStripMenuItem.Text = "Client";
             // 
             // showToolStripMenuItem
@@ -92,52 +93,47 @@
             this.musicToolStripMenuItem1,
             this.genresToolStripMenuItem1,
             this.clientToolStripMenuItem1});
-            this.showToolStripMenuItem.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.showToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.showToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.showToolStripMenuItem.ForeColor = System.Drawing.Color.Blue;
             this.showToolStripMenuItem.Name = "showToolStripMenuItem";
-            this.showToolStripMenuItem.Size = new System.Drawing.Size(68, 25);
+            this.showToolStripMenuItem.Size = new System.Drawing.Size(70, 29);
             this.showToolStripMenuItem.Text = "Show";
             // 
             // musicToolStripMenuItem1
             // 
             this.musicToolStripMenuItem1.Name = "musicToolStripMenuItem1";
-            this.musicToolStripMenuItem1.Size = new System.Drawing.Size(180, 26);
+            this.musicToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.musicToolStripMenuItem1.Text = "Music";
-            this.musicToolStripMenuItem1.Click += new System.EventHandler(this.MusicToolStripMenuItem1_Click);
             // 
             // genresToolStripMenuItem1
             // 
             this.genresToolStripMenuItem1.Name = "genresToolStripMenuItem1";
-            this.genresToolStripMenuItem1.Size = new System.Drawing.Size(139, 26);
+            this.genresToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.genresToolStripMenuItem1.Text = "Genres";
             // 
             // clientToolStripMenuItem1
             // 
             this.clientToolStripMenuItem1.Name = "clientToolStripMenuItem1";
-            this.clientToolStripMenuItem1.Size = new System.Drawing.Size(139, 26);
+            this.clientToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.clientToolStripMenuItem1.Text = "Client";
             // 
-            // favoriteToolStripMenuItem
+            // favouriteToolStripMenuItem
             // 
-            this.favoriteToolStripMenuItem.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.favoriteToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.favoriteToolStripMenuItem.Name = "favoriteToolStripMenuItem";
-            this.favoriteToolStripMenuItem.Size = new System.Drawing.Size(95, 25);
-            this.favoriteToolStripMenuItem.Text = "Favorite";
+            this.favouriteToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.favouriteToolStripMenuItem.ForeColor = System.Drawing.Color.Blue;
+            this.favouriteToolStripMenuItem.Name = "favouriteToolStripMenuItem";
+            this.favouriteToolStripMenuItem.Size = new System.Drawing.Size(106, 29);
+            this.favouriteToolStripMenuItem.Text = "Favourite";
             // 
-            // Main
+            // Musics
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1924, 1061);
+            this.ClientSize = new System.Drawing.Size(1278, 536);
             this.Controls.Add(this.menuStrip1);
-            this.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.Name = "Main";
-            this.Text = "Main";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Name = "Musics";
+            this.Text = "Musics";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -148,14 +144,14 @@
         #endregion
 
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem musicToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem addToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem musicToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem genresToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem clientToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem showToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem musicToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem genresToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem clientToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem favoriteToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem favouriteToolStripMenuItem;
     }
 }

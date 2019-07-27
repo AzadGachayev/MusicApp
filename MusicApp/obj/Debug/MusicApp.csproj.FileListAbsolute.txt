@@ -10,3 +10,14 @@ C:\Users\User\source\repos\MusicApp\MusicApp\obj\Debug\MusicApp.exe
 C:\Users\User\source\repos\MusicApp\MusicApp\obj\Debug\MusicApp.pdb
 C:\Users\User\source\repos\MusicApp\MusicApp\obj\Debug\MusicApp.MusicShow.resources
 C:\Users\User\source\repos\MusicApp\MusicApp\obj\Debug\MusicApp.Main.resources
+C:\Users\User\Desktop\Azad\C200-MusicApp\MusicApp\obj\Debug\MusicApp.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Azad\C200-MusicApp\MusicApp\obj\Debug\MusicApp.Form1.resources
+C:\Users\User\Desktop\Azad\C200-MusicApp\MusicApp\obj\Debug\MusicApp.Musics.resources
+C:\Users\User\Desktop\Azad\C200-MusicApp\MusicApp\obj\Debug\MusicApp.Properties.Resources.resources
+C:\Users\User\Desktop\Azad\C200-MusicApp\MusicApp\obj\Debug\MusicApp.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Azad\C200-MusicApp\MusicApp\obj\Debug\MusicApp.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Azad\C200-MusicApp\MusicApp\obj\Debug\MusicApp.exe
+C:\Users\User\Desktop\Azad\C200-MusicApp\MusicApp\obj\Debug\MusicApp.pdb
+C:\Users\User\Desktop\Azad\C200-MusicApp\MusicApp\bin\Debug\MusicApp.exe.config
+C:\Users\User\Desktop\Azad\C200-MusicApp\MusicApp\bin\Debug\MusicApp.exe
+C:\Users\User\Desktop\Azad\C200-MusicApp\MusicApp\bin\Debug\MusicApp.pdb
